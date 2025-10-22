@@ -13,7 +13,7 @@ metadata:
     - title: Discord Chat
       url: https://github.com/tommyhang/backstagetest1
   annotations:
-    circleci.com/project-slug: github/spotify/pump-station
+    gocd.org/pipelines: backstage,backstage-pr,backstage-builder
 spec:
   type: service
   lifecycle: experimental
