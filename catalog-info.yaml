@@ -18,6 +18,9 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://github.com/tommyhang/backstagetest1
 spec:
-  type: library
-  owner: CNCF
-  lifecycle: production
+  type: service
+  lifecycle: experimental
+  owner: team-a
+  system: artist-engagement-portal
+  dependsOn: ['resource:artists-db']
+  apiConsumedBy: ['component:www-artist']
