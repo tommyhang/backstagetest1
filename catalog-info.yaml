@@ -6,12 +6,6 @@ metadata:
   links:
     - title: Website
       url: https://github.com/tommyhang/backstagetest1
-    - title: Documentation
-      url: https://github.com/tommyhang/backstagetest1
-    - title: Storybook
-      url: https://github.com/tommyhang/backstagetest1
-    - title: Discord Chat
-      url: https://github.com/tommyhang/backstagetest1
   annotations:
     gocd.org/pipelines: backstage,backstage-pr,backstage-builder
 spec:
