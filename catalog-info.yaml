@@ -2,8 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstagetest1
-  description: |
-    Testing out documentation
+  description: Testing out documentation
   links:
     - title: Website
       url: https://github.com/tommyhang/backstagetest1
@@ -15,8 +14,6 @@ metadata:
       url: https://github.com/tommyhang/backstagetest1
   annotations:
     github.com/project-slug: tommyhang/backstagetest1
-    backstage.io/techdocs-ref: dir:.
-    lighthouse.com/website-url: https://github.com/tommyhang/backstagetest1
 spec:
   type: service
   lifecycle: experimental
