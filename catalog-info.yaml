@@ -1,17 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstagetest3
-  description: Testing out documentation
+  name: backstage-test-component
+  description: Testing out component
   links:
     - title: Website
       url: https://github.com/tommyhang/backstagetest1
-  annotations:
-    gocd.org/pipelines: backstage,backstage-pr,backstage-builder
 spec:
-  type: service
-  lifecycle: experimental
-  owner: team-a
-  system: artist-engagement-portal
-  dependsOn: ['resource:artists-db']
-  apiConsumedBy: ['component:www-artist']
+  type: website
+  lifecycle: production
+  owner: caesswe
